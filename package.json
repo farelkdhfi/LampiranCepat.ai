@@ -1,5 +1,5 @@
 {
-  "name": "spjcepat-saas",
+  "name": "lampirancepat.ai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,29 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@react-pdf/renderer": "^4.5.1",
+    "docx": "^9.6.1",
+    "docxtemplater": "^3.68.6",
+    "docxtemplater-image-module-free": "^1.1.1",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^12.38.0",
+    "html2pdf.js": "^0.14.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.7",
+    "konva": "^10.2.5",
+    "lucide-react": "^1.11.0",
     "next": "16.2.4",
+    "pizzip": "^3.2.0",
+    "puppeteer": "^24.42.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-konva": "^19.2.3",
+    "tesseract.js": "^7.0.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/file-saver": "^2.0.7",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
